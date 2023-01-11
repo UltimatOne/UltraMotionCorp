@@ -80,6 +80,10 @@ ouvrir le terminal et se placer à la racine du dossier umc
 
 entrer la commande : npm install
 
+il est ensuite possible de démarrer l'application dans le navigateur 
+
+avec la commande: npm start
+
 l'application est équipé d'un fichier db.json avec quelques données pour initialiser un mock il faut donc installer ses dépendances 
 
 avec la commande: npm install -g json-server
