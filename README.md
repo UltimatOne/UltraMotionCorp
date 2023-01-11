@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+Hello ;)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est le Fil-Rouge de la formation POEC Developpeur Front End du 11/2022 au 02/2023 dispensée par IB-CEGOS en partenariat avec les formateurs de Sémifir:
 
-## Available Scripts
 
-In the project directory, you can run:
+Réalisation du projet fil-rouge:
 
-### `npm start`
+Objectifs 
+	Mesurer le niveau de maîtrise du développement
+	Définir l’architecture technique cible (base de données, logique de navigation, recensement 
+des écrans,… )
+	Mettre en pratique les connaissances acquises au travers d’un projet
+	Développer ses compétences de développeur
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Programme
+1.	Présentation du déroulement par le formateur
+	Sur la base d’un cas pratique énoncé ci-après, les participants sont amenés à concevoir 
+puis réaliser une application en sous-groupes
+2.	Réflexion sur l’architecture technique
+	Recensement des fonctionnalités
+	Élaboration du modèle de la base de données
+	Développement des premières fonctionnalités 
+3.	Rédaction d’un dossier d’analyse
+	Un dossier d’analyse par équipe
+	Intégrer les diagrammes qui semblent pertinents pour décrire l’application
+	Penser dès le début à la réalisation
+4.	Début des développements
+	Mise en place de la base de données
+	Mise en place de l’architecture technique cible
+	Développement des premiers écrans
+5.	Discussions/Échanges
+	Échanges entre les participants sur cette première expérience
+	Conseils et partage de bonnes pratiques par le formateur
+Énoncé du cas pratique
+Contexte de la demande
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Une entreprise industrielle, UltraMotionCorp, souhaite créer une application web permettant à de futurs partenaires de s’inscrire et revendre leurs services. A cet effet, UltraMotionCorp a établi une version préliminaire du cahier des charges (CDC). Il est important de noter que ce dernier pourra tout à fait être modifié et étendu tout le long du cycle de développement et de livraison. Le délai fixé par le client est de quatre mois maximum à partir de la soumission du CDC.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+L’application est principalement axée sur les points suivants :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1)	Le module d’inscription:
+ Le client souhaite pouvoir donner la possibilité aux partenaires de créer une liste de services tel que :
+1.	Le câblage d’armoire électrique
+2.	L’accompagnement aux choix de matériels industriels
+3.	L’installation de matériels 
+4.	Etc…
+Pour chaque type de service, le partenaire propose un taux horaire.
+Chaque partenaire peut ajouter son logo, une description de son entreprise, l’effectif, le numéro de siret, ses coordonnées, son domaine principal d’activité et la zone géographique qu’il couvre.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2)	Le module de recherche de prestations:
+L’application doit pouvoir permettre à des tiers de rechercher des entreprises, par nom et surtout par type de prestation. Une fois la prestation trouvée, le client peut ajouter cette prestation à un panier et continuer ses recherches.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Une fois le panier validé, une notification est envoyée aux entreprises sélectionnées, celle-ci doivent pouvoir valider la prestation ou non.
 
-### `npm run eject`
+3)	Un module de devis
+Lorsqu’une entreprise est sélectionnée, elle doit pouvoir proposer un devis pour la prestation en question.
+On devra pouvoir gérer le temps de prestation mais également également la vente de matériel. Lors de la validation du devis, le prix total du panier est mis à jour.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4)	Un module de communication
+Dés lors qu’un client et qu’un prestataire finalisent un devis, ils doivent pouvoir échanger des documents via l’application sous forme de fichiers pdf. Ces fichiers seront rattachés au numéro de devis et accessibles par le client et le prestataire.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5)	Evaluation de la prestation : 
+Lorsque le client décide de valider une prestation, celle-ci est réputée débuter. Les deux parties peuvent décider de terminer la prestation, lorsque que c’est le cas des deux côtés, la prestation s’arrête. Et une évaluation portant sur 4 items est proposée au client (l’evaluation se fera via l’attributiuon d’une note de 0 à 5) :
+1.	La qualité globale de la prestation
+2.	La facilité de communication
+3.	La qualité du dossier technique fournit 
+4.	Le niveau d’expertise
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+6)	Module de monitoring :
+Une partie administration doit permettre de visualiser :
+1.	le nombre de prestations en cours et terminées.
+2.	Le nombre moyen, Max et min de prestation par prestataire
+3.	Le prix moyen, Max et min d’une prestation.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Pour récupérer le projet il faut cloner le dépot et ouvrir le dossier umc dans vscode
+ouvrir le terminal et se placer à la racine du dossier umc
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+entrer la commande : npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+l'application est équipé d'un fichier db.json avec quelques données pour initialiser un mock il faut donc installer ses dépendances 
 
-### Code Splitting
+avec la commande: npm install -g json-server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+il sera ensuite possible de lancer l'écoute du mock
 
-### Analyzing the Bundle Size
+avec la commande : json-server --watch db.json --port 8000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+et en entrant l'adresse 
 
-### Making a Progressive Web App
+http://localhost:8000 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ou 
 
-### Advanced Configuration
+http://localhost:8000/utilisateurs 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ou encore 
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+http://localhost:8000/utilisateurs/1 comme exemples
