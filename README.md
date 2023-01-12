@@ -92,14 +92,20 @@ il sera ensuite possible de lancer l'écoute du mock
 
 avec la commande : json-server --watch db.json --port 8000
 
-et en entrant l'adresse 
+le serveur se lance sur le port 8000
 
 http://localhost:8000 
 
-ou 
+il est possible de l'écouter en entrant dans le navigateur:
 
 http://localhost:8000/utilisateurs 
 
 ou encore 
 
-http://localhost:8000/utilisateurs/1 comme exemples
+http://localhost:8000/utilisateurs/1 par exemple
+
+                    Carrousel
+pour les dependances du carrousel entrer la ligne de commande:
+
+npm install react-responsive-carousel --save
+
