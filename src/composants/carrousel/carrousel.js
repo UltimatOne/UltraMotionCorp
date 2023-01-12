@@ -8,14 +8,14 @@ import image3 from "./../../medias/images/3.jpg"
 
 const Carrousel = () => {
   return (
-    <Carousel className="carrousel" autoPlay="true" infiniteLoop="true">
-      <div className="images">
+    <Carousel className="carrousel" autoPlay="true" infiniteLoop="true" interval={4000}>
+      <div>
         <img src={image1} alt="image1"></img>
       </div>
-      <div className="images">
+      <div>
       <img src={image2} alt="image2"></img>
       </div>
-      <div className="images">
+      <div>
       <img src={image3} alt="image3"></img>
       </div>
     </Carousel>
