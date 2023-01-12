@@ -1,5 +1,5 @@
 import './accueil.css';
-import Carrousel from './../../carrousel/carrousel';
+
 
 function Accueil(){
     return (
