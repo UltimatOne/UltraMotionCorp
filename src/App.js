@@ -1,14 +1,16 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 
 
 function App() {
   return (
-    <>
     <div className="App">
       <p>projet UMC</p>
+      <Routes>
+        
+      </Routes>
     </div>
     
-    </>
   );
 }
 
