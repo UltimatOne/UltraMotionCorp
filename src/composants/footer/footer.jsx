@@ -1,6 +1,6 @@
 import "./footer.css";
 /**
- * Ceci est le Footer
+ * Ceci est le Footer de UltraMotionCorp
  * @returns le footer du site.
  */
 export default function Footer() {
