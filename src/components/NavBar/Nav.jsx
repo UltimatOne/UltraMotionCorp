@@ -28,11 +28,15 @@ function Nav() {
       />
       <nav className="nav_links">
         <a href="/" className="nav__link">
+          <button>
           Menu
+          </button>
         </a>
 
         <a href="/" className="nav__link">
+          <button>
           S'inscrire
+          </button>
         </a>
 
         <a href="/" className="nav__link">
