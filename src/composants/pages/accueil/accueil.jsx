@@ -1,10 +1,10 @@
+// import Nav from '../../Nav/Nav';
 import './accueil.css';
-
 
 function Accueil(){
     return (
-     <div>
-         <p>projet UMC</p>
+     <div className="LandingPage">
+        {/* <Nav/> */}
      </div>
  )};
  export default Accueil;
