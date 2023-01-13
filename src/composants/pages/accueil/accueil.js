@@ -1,6 +1,5 @@
 import './accueil.css';
 
-
 function Accueil(){
     return (
      <div>
