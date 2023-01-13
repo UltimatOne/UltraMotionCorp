@@ -14,7 +14,7 @@ function App() {
       <Route path="/formulaire-prestataire" element={<Formulaire props="Prestataire"/>}/>
       </Routes>
     </div>
-    
+
   );
 }
 
