@@ -84,6 +84,10 @@ il est ensuite possible de démarrer l'application dans le navigateur
 
 avec la commande: npm start
 
+
+
+base de données:
+
 l'application est équipé d'un fichier db.json avec quelques données pour initialiser un mock il faut donc installer ses dépendances 
 
 avec la commande: npm install -g json-server
@@ -92,20 +96,12 @@ il sera ensuite possible de lancer l'écoute du mock
 
 avec la commande : json-server --watch db.json --port 8000
 
-le serveur se lance sur le port 8000
+le serveur se lance sur l'adresse http://localhost:8000 
 
-http://localhost:8000 
-
-il est possible de l'écouter en entrant dans le navigateur:
+il est possible de le tester en tapant dans le navigateur: 
 
 http://localhost:8000/utilisateurs 
 
 ou encore 
 
-http://localhost:8000/utilisateurs/1 par exemple
-
-                    Carrousel
-pour les dependances du carrousel entrer la ligne de commande:
-
-npm install react-responsive-carousel --save
-
+http://localhost:8000/utilisateurs/1
