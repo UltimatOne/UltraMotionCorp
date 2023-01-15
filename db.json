@@ -13,7 +13,9 @@
       "partenaire": false,
       "Société": "",
       "Siret": "",
-      "prestations":[""]
+      "prestations": [
+        ""
+      ]
     },
     {
       "id": 2,
@@ -27,7 +29,7 @@
       "telephone": "0787654321",
       "Société": "Elec-Instal",
       "Siret": 12345678900013,
-      "prestations":[
+      "prestations": [
         {
           "id": 1,
           "titre": "installation prise electrique",
@@ -61,7 +63,16 @@
       "partenaire": false,
       "Société": "",
       "Siret": "",
-      "prestations":[""]
+      "prestations": [
+        ""
+      ]
+    },
+    {
+      "prenom": "Jean-Jacques",
+      "nom": "Goddet",
+      "email": "test@test",
+      "motdepasse": "1234",
+      "id": 4
     }
   ]
 }

@@ -8,16 +8,17 @@
     font-weight: 350;
     font-size: 24px;
     line-height: 190%;
-    width: 300px;
+    width: auto;
     height: 50px;
 }
 .container{
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: auto;
     background-color: aqua;
     color: #FFFFFF;
-    margin-top: 7%;
-    margin-left: 40%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     background: rgba(0, 0, 0, 0.3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(5px);
@@ -35,16 +36,33 @@
 .bouton{
 box-sizing: border-box;
 color: #FFFFFF;
-width: 100px;
-height: 25px;
+width: 200px;
+height: 40px;
 background: #87DA60;
 border: 1px solid rgba(0, 0, 0, 0.1);
 box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 border-radius: 15px;
 margin: auto;
+margin-top: 2%;
+margin-bottom: 3%;
+
 }
 input{
-    width: 245px;
-    height: 25px;
+    width: 350px;
+    height: 30px;
     border-radius: 15px;
+}
+.sectioncontainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+    margin-top: 2%;
+}
+.titreLabel{
+    margin-left: 2%;
+}
+.message{
+    color: red;
+    margin-left: 2%;
 }
