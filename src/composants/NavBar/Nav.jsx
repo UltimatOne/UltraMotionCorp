@@ -28,7 +28,7 @@ function Nav() {
       </div>
       <span>
         <nav className="nav_links">
-          <a href="/" className="nav__link">
+          <a href="/formulaire-utilisateur" className="nav__link">
             <button className="btnInscription">S'inscrire</button>
           </a>
 
