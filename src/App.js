@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './composants/footer/footer';
 import Formulaire from './composants/formulaire/formulaire';
 import Accueil from './composants/pages/accueil/accueil';
 
@@ -13,6 +14,7 @@ function App() {
       <Route path="/formulaire-utilisateur" element={<Formulaire props="Utilisateur" />}/>
       <Route path="/formulaire-prestataire" element={<Formulaire props="Prestataire"/>}/>
       </Routes>
+      <Footer></Footer>
     </div>
 
   );
