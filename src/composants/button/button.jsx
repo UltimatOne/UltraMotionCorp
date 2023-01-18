@@ -1,9 +1,16 @@
 import React from 'react'
  import "./button.css"
+
+ /////////////////  BUTTON GENERIQUE /////////////////
+ /**
+  * 
+  * utiliser le props pour paramétrer className, type & nom
+  * @returns 
+  */
  
- function Button({props}) {
+ function Button({cssClass, type, children}) {
    return (
-        <button className="btn" type="button">{props}</button>
+        <button className={cssClass} type={type}>{children}</button>
    )
  }
  
