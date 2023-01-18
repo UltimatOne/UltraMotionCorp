@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './composants/footer/footer';
 import Formulaire from './composants/formulaire/formulaire';
-import Accueil from './composants/pages/accueil/accueil';
+import Accueil from './pages/accueil';
 
 
 
