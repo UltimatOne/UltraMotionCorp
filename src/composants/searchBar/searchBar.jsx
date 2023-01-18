@@ -7,6 +7,7 @@ const SearchBar = () => {
 
  const [searchInput, setSearchInput] = useState("");
 
+ // Je crée une base fictive pour test
  const prestation= [
 
   { entreprise: "JobiJoba", ville: "Valenciennes" },
