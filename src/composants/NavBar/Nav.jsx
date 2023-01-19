@@ -1,15 +1,8 @@
 import React from "react";
 import "./Nav.css";
-// import { useState } from "react";
 import logo from "../../medias/images/logoUMC.svg";
 import Button from "../button/button";
-/* import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Link,
-  Outlet
-} from 'react-router-dom'; */
+
 
 function Nav() {
   return (
