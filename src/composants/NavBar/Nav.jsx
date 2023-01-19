@@ -1,7 +1,8 @@
 import React from "react";
 import "./Nav.css";
-import { useState } from "react";
-import logo from "./../../medias/images/logoExemple.jpg"
+// import { useState } from "react";
+import logo from "../../medias/images/logoUMC.svg"
+import Button from "../button/button";
 /* import {
   BrowserRouter,
   Routes,
@@ -11,29 +12,20 @@ import logo from "./../../medias/images/logoExemple.jpg"
 } from 'react-router-dom'; */
 
 function Nav() {
-  const [toggleMenu, setToggleMenu] = useState(false);
-
-  const handleClick = () => {
-    console.log(toggleMenu);
-    toggleMenu ? setToggleMenu(false) : setToggleMenu(true);
-  };
 
   return (
     <div className="banner">
-      <button className="nav_burger" onClick={handleClick}>
-        {/* <i class="bi bi-list"></i> */}
-      </button>
       <div>
         <img src={logo} alt="LogoUMC" />
       </div>
       <span>
         <nav className="nav_links">
           <a href="/formulaire-utilisateur" className="nav__link">
-            <button className="btnInscription">S'inscrire</button>
+            <Button className="btnInscription" type="button">S'inscrire</Button>
           </a>
 
           <a href="/" className="nav__link">
-            <button className="btnConnection">Se connecter</button>
+          <Button className="btnConnexion">Se Connecter</Button>
           </a>
         </nav>
       </span>
