@@ -1,10 +1,10 @@
-// import Nav from './../composants/NavBar/Nav';
+import Nav from '../composants/NavBar/Nav';
 import './accueil.css';
 
 function Accueil(){
     return (
      <div className="LandingPage">
-        {/* <Nav/> */}
+        <Nav/>
      </div>
  )};
  export default Accueil;

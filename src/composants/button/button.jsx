@@ -8,9 +8,9 @@ import React from 'react'
   * @returns 
   */
  
- function Button({cssClass, type, children}) {
+ function Button({className, type, children}) {
    return (
-        <button className={cssClass} type={type}>{children}</button>
+        <button className={className} type={type}>{children}</button>
    )
  }
  
