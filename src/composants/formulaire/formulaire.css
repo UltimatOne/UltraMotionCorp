@@ -11,7 +11,7 @@
     width: auto;
     height: 50px;
 }
-.container{
+.globalForm .container{
     width: 400px;
     height: auto;
     background-color: aqua;
