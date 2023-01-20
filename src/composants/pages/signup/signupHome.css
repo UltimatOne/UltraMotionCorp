@@ -1,0 +1,100 @@
+.signup-home {
+  display: flex;
+  flex-direction: row;
+  color: #fefefe;
+  height: 903px;
+  background: url("../../../medias/bkg-img.png");
+  mix-blend-mode: multiply;
+}
+
+.signup-home .container {
+  width: 30%;
+  margin: auto;
+}
+
+.signup-home .top-utilisateur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: auto;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 84%;
+  background: #68a849;
+  border-radius: 15px 15px 0px 0px;
+}
+.signup-home .top-prestataire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: auto;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 84%;
+  background: #ceae5b;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.signup-home .info-container {
+  height: 310px;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: 5px;
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 0px 0px 15px 15px;
+  
+}
+
+.signup-home .titre {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 84%;
+  /* or 27px */
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+.signup-home .sous-titre-utilisateur {
+  font-family: "M PLUS 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 84%;
+  /* or 17px */
+
+  text-align: center;
+
+  color: #87da60;
+  margin-bottom: 21px;
+}
+
+.signup-home .sous-titre-prestataire {
+  font-family: "M PLUS 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 84%;
+  /* or 17px */
+
+  text-align: center;
+
+  color: #ffdf8c;
+  margin-bottom: 21px;
+}
+
+.signup-home li {
+  font-family: "Inconsolata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 84%;
+  
+}

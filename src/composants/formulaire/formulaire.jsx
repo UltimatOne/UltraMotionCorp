@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./formulaire.css";
+// import "./formulaire.css";
 
 function Formulaire({props}) {
   const[prenom, setPrenom] = useState("");
