@@ -3,6 +3,7 @@ import React from "react";
 import "./Nav.css";
 import logo from "../../medias/images/logoUMC.svg";
 import Button from "../button/button";
+import {Link} from "react-router-dom";
 
 
 function Nav() {
@@ -18,18 +19,18 @@ function Nav() {
               {/* Balise Bouton, props Children= S'inscrire, 
               props ClassName = btnInscription
               props type=button + lien formulaire inscription*/}
-            <a href="/formulaire-utilisateur" className="nav__link">
+            <Link to="/home-signup" className="nav__link">
               <Button className="btnInscription" type="button">
                 S'inscrire
               </Button>
-            </a>
+            </Link>
 
             {/* Balise Bouton, props Children= Se Connecter, 
               props ClassName = btnConnexion
               props type=button*/}
-            <a href="/" className="nav__link">
+            <Link to="/" className="nav__link">
               <Button className="btnConnexion" type="button">Se Connecter</Button>
-            </a>
+            </Link>
           </nav>
         </span>
       </div>

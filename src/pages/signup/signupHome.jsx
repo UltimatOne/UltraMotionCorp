@@ -1,5 +1,6 @@
 import "./signupHome.css";
 import logo from "../../medias/images/logoUMC.svg"
+import { Link } from "react-router-dom";
 
 export default function SignUpHome() {
   return (
@@ -75,9 +76,11 @@ export default function SignUpHome() {
               <li>Obtenir de l'aide concernant vos services commandés</li>
             </ul>
           </div>
+          <Link to="/formulaire-utilisateur">
           <button className="boutton-utilisateur" type="button">
             Créer un compte
           </button>
+          </Link>
         </div>
       </div>
 
@@ -116,9 +119,11 @@ export default function SignUpHome() {
               </li>
             </ul>
           </div>
+          <Link to="/formulaire-prestataire">
           <button className="boutton-prestataire" type="button">
             Créer un compte
           </button>
+          </Link>
         </div>
       </div>
       </div>
