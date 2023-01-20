@@ -1,9 +1,13 @@
-import Button from "../../composants/button/button";
 import "./signupHome.css";
+import logo from "../../medias/images/logoUMC.svg"
 
 export default function SignUpHome() {
   return (
     <div className="signup-home">
+      <div className="logo">
+        <img src={logo} alt="" />
+      </div>
+      <div className="full-container">
       <div className="container">
         <div className="top-utilisateur">
           <svg
@@ -61,13 +65,19 @@ export default function SignUpHome() {
         </div>
         <div className="info-container">
           <p className="titre">Client à la recherche de service</p>
-          <p className="sous-titre-utilisateur">Ce compte Vous permettra de : </p>
-          <ul>
-            <li>Recherche de services</li>
-            <li>Commander un Service</li>
-            <li>Obtenir de l'aide concernant vos services commandés</li>
-          </ul>
-          <button className="boutton-utilisateur" type="button">Crée un compte</button>
+          <p className="sous-titre-utilisateur">
+            Ce compte Vous permettra de :{" "}
+          </p>
+          <div className="description">
+            <ul>
+              <li>Recherche de services</li>
+              <li>Commander un Service</li>
+              <li>Obtenir de l'aide concernant vos services commandés</li>
+            </ul>
+          </div>
+          <button className="boutton-utilisateur" type="button">
+            Créer un compte
+          </button>
         </div>
       </div>
 
@@ -89,22 +99,28 @@ export default function SignUpHome() {
         </div>
         <div className="info-container">
           <p className="titre">Prestataire à la recherche de clients</p>
-          <p className="sous-titre-prestataire">Ce compte Vous permettra de : </p>
-          <ul>
-            <li>
-              Disposer d'une plateforme professionelle pour afficher ses
-              services
-            </li>
-            <li>se faire connaitre</li>
-            <li>Obtenir les commentaire des clients</li>
-            <li>
-              Avoir une plateforme facile et compréhensible pour partager les
-              services
-            </li>
-          </ul>
-          <button className="boutton-prestataire" type="button">Créer un compte</button>
-          
+          <p className="sous-titre-prestataire">
+            Ce compte Vous permettra de :{" "}
+          </p>
+          <div className="description">
+            <ul>
+              <li>
+                Disposer d'une plateforme professionelle pour afficher ses
+                services
+              </li>
+              <li>se faire connaitre</li>
+              <li>Obtenir les commentaire des clients</li>
+              <li>
+                Avoir une plateforme facile et compréhensible pour partager les
+                services
+              </li>
+            </ul>
+          </div>
+          <button className="boutton-prestataire" type="button">
+            Créer un compte
+          </button>
         </div>
+      </div>
       </div>
     </div>
   );
