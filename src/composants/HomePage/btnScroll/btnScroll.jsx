@@ -12,7 +12,7 @@ const ScrollComponent = () => {
   return (
     <ScrollButton
       behavior="smooth"
-      iconType="arrowDown"
+      img src="./images/btnScroll.svg" alt="btnScroll"
       style={{ fontSize: '24px' }}
     />
   );
