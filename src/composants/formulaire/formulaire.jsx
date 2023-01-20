@@ -1,6 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-// import "./formulaire.css";
+import logo from "../../medias/images/logoUMC.svg";
+import logoUtilisateur from "../../medias/images/logoUtilisateur.svg";
+import Button from "../button/button";
+import "./formulaire.css";
 
 function Formulaire({ props }) {
   const [prenom, setPrenom] = useState("");
@@ -27,8 +30,15 @@ function Formulaire({ props }) {
   };
   return (
     <div className="globalForm">
+      <div className="logo">
+        <img src={logo} alt="LogoUMC" />
+      </div>
       <div className="container">
-        <p className="titre">{props}</p>
+        <div className="banner">
+          <p className="titre">
+            <img src={logoUtilisateur} alt="logo-utilisateur" /> {props}
+          </p>
+        </div>
         <form className="formulaire" onSubmit={soumettre}>
           <div className="sectioncontainer">
             <label className="titreLabel">Nom</label>
@@ -43,9 +53,6 @@ function Formulaire({ props }) {
               onChange={(e) => setNom(e.target.value)}
               className=""
             />
-            {nom.length === 0 && validation && (
-              <span className="message">Entrez votre nom</span>
-            )}
           </div>
           <div className="sectioncontainer">
             <label className="titreLabel">Prénom</label>
@@ -60,9 +67,6 @@ function Formulaire({ props }) {
               onChange={(e) => setPrenom(e.target.value)}
               className=""
             />
-            {prenom.length === 0 && validation && (
-              <span className="message">Entrez votre prénom</span>
-            )}
           </div>
           <div className="sectioncontainer">
             <label className="titreLabel">Email</label>
@@ -74,9 +78,6 @@ function Formulaire({ props }) {
               onChange={(e) => setEmail(e.target.value)}
               className=""
             />
-            {email.length === 0 && validation && (
-              <span className="message">Entrez votre email</span>
-            )}
           </div>
           <div className="sectioncontainer">
             <label className="titreLabel">Mot de passe</label>
@@ -88,20 +89,14 @@ function Formulaire({ props }) {
               onChange={(e) => setMotDePasse(e.target.value)}
               className=""
             />
-            {motdepasse.length === 0 && validation && (
-              <span className="message">Entrez un mot de passe</span>
-            )}
           </div>
           <div className="sectioncontainer">
             <label className="titreLabel">Confirmation du mot de passe</label>
             <input type="password" name="motDePasse" />
-            {motdepasse.length === 0 && validation && (
-              <span className="message">Entrez un mot de passe</span>
-            )}
           </div>
-          <button className="bouton" type="submit" value="">
+          <Button className="btnInscription" type="submit">
             Créer compte
-          </button>
+          </Button>
         </form>
       </div>
     </div>
