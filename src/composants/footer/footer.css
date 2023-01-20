@@ -1,7 +1,7 @@
 .Footer {
   position: relative;
   background-color: #3757aa;
-  width: 100vw;
+  width: auto;
   height: 432px;
   color: #3e6a83;
   display: flex;
