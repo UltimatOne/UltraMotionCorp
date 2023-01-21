@@ -1,78 +1,126 @@
 {
-  "utilisateurs": [
+  "clients": [
     {
       "id": 1,
       "nom": "Williamson",
       "prenom": "Cameron",
-      "profession": "Manager",
-      "age": 37,
       "adresse": "18 rue des postes",
+      "codePostal": 59000,
       "ville": "Lille",
       "email": "cameron.williamson@manager.fr",
       "telephone": "0712345678",
-      "partenaire": false,
-      "Société": "",
-      "Siret": "",
-      "prestations": [
-        ""
-      ]
+      "motdepasse": "LilleByNight"
     },
     {
       "id": 2,
-      "nom": "Minet",
-      "prenom": "Bernard",
-      "profession": "Electricien",
-      "age": 41,
-      "adresse": "321 Boulevard de la Liberté",
-      "ville": "Lille",
-      "email": "bernard.minet@elec-instal.fr",
-      "telephone": "0787654321",
-      "Société": "Elec-Instal",
-      "Siret": 12345678900013,
-      "prestations": [
-        {
-          "id": 1,
-          "titre": "installation prise electrique",
-          "description": "Prestation comprenant la création de l'alimentation electrique par le passage des cables et la pose d'une prise.",
-          "tarif": 125
-        },
-        {
-          "id": 2,
-          "titre": "Diagnostique de panne électrique",
-          "description": "En cas de problemes électrique identification des causes et émmission d'un devis.",
-          "tarif": 80
-        },
-        {
-          "id": 3,
-          "titre": "Réparation panne électrique",
-          "description": "Réparation du circuit électrique. Le montant du diagnostique de panne est déduit de la prestation en cas d'acceptation du devis",
-          "tarif": 200
-        }
-      ]
-    },
-    {
-      "id": 3,
       "nom": "Ad",
       "prenom": "Min",
-      "profession": "DevOps",
-      "age": 45,
       "adresse": "17 Avenue le Corbusier",
+      "codePostal": 59000,
       "ville": "Lille",
       "email": "ad.min@devops.com",
       "telephone": "0756781234",
-      "partenaire": false,
-      "Société": "",
-      "Siret": "",
-      "prestations": [
-        ""
-      ]
+      "motdepasse": "Zeus"
     },
     {
-      "prenom": "Jean-Jacques",
+      "id": 3,
       "nom": "Goddet",
+      "prenom": "Jean-Jacques",
+      "adresse": "42 rue du développement",
+      "codePostal": 59450,
+      "ville": "Sin Le Noble",
       "email": "test@test",
-      "motdepasse": "1234",
-      "id": 4
+      "telephone": "0601010101",
+      "motdepasse": "1234"
     }
+  ],
+  "entreprises": [
+    {
+      "id": 1,
+      "logo": "",
+      "societe": "Elec-Instal",
+      "activite": "Electricité",
+      "adresse": "321 Boulevard de la Liberté",
+      "codePostal": 59000,
+      "ville": "Lille",
+      "email": "contact@elec-instal.fr",
+      "telephone": "0787654321",
+      "Siret": 12345678900013,
+      "effectifs": 15,
+      "zone": "Nord"
+    },
+    {
+      "id": 2,
+      "logo": "",
+      "societe": "AQUA'CHAUFF",
+      "activite": "Plomberie",
+      "adresse": "26 Bd Georges Bizet",
+      "codePostal": 59650,
+      "ville": "Villeneuve-d'Ascq",
+      "email": "contact@aqua-chauff.fr",
+      "telephone": "0695460230",
+      "Siret": 42145678901047,
+      "effectifs": 10,
+      "zone": "Béthune et les zones à proximité"
+    }
+  ],
+  "services":[
+    {
+      "id": 1,
+      "entreprises.id": 1,
+      "titre": "câblage d’armoire électrique",
+      "description": "devis pour l'installation et le cabalage d'une armoire électrique",
+      "tarif": 100
+    },
+    {
+      "id": 2,
+      "entreprises.id": 1,
+      "titre": "L’accompagnement aux choix de matériels industriels",
+      "description": "notre équipe vous accompagne dans le choix de votre matériel économique et écologique",
+      "tarif": 150
+    },
+    {
+      "id": 3,
+      "entreprises.id": 1,
+      "titre": "Diagnostique panne électrique",
+      "description": "Réparation du circuit électrique. Le montant du diagnostique de panne est déduit de la réparation en cas d'acceptation du devis.",
+      "tarif": 50
+    },
+    {
+      "id": 4,
+      "entreprises.id": 2,
+      "titre": "devis d'installation d'appareil de production d'eau chaude",
+      "description": "pose et entretien de ballons d'eau chaude",
+      "tarif": 100
+    },
+    {
+      "id": 5,
+      "entreprises.id": 2,
+      "titre": "devis de remise aux normes de vos installations",
+      "description": "diagnostique de votre installation",
+      "tarif": 100
+    },
+    {
+      "id": 6,
+      "entreprises.id": 2,
+      "titre": "Dépannage plomberie bouchée",
+      "description": "intervention rapide pour remettre en état vos canalisations",
+      "tarif": 200
+    }
+  ],
+  "devis": [
+
+  ],
+  "prestations": [
+
+  ],
+  "historiques": [
+
+  ],
+  "sondages":[
+
+  ],
+  "paniers": [
+
   ]
 }

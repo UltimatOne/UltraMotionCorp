@@ -11,11 +11,11 @@ function Formulaire({ props }) {
   const navigation = useNavigate();
   const soumettre = (e) => {
     e.preventDefault();
-    const utilisateurdata = { prenom, nom, email, motdepasse };
-    fetch("http://localhost:8000/utilisateurs", {
+    const clientdata = { prenom, nom, email, motdepasse };
+    fetch("http://localhost:8000/clients", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify(utilisateurdata),
+      body: JSON.stringify(clientdata),
     })
       .then((res) => {
         alert("Sauvegarde réussie.");
