@@ -18,7 +18,6 @@ const BarreDeRecherche = ({ placeholder }) => {
     const value = event.target.value;
     setSearchTerm(value);
   };
-  console.log();
 
   return (
     <>
