@@ -68,15 +68,15 @@
     {
       "id": 1,
       "entreprises.id": 1,
-      "titre": "câblage d’armoire électrique",
-      "description": "devis pour l'installation et le cabalage d'une armoire électrique",
+      "titre": "Câblage d’armoire électrique",
+      "description": "Devis pour l'installation et le cabalage d'une armoire électrique",
       "tarif": 100
     },
     {
       "id": 2,
       "entreprises.id": 1,
       "titre": "L’accompagnement aux choix de matériels industriels",
-      "description": "notre équipe vous accompagne dans le choix de votre matériel économique et écologique",
+      "description": "Notre équipe vous accompagne dans le choix de votre matériel économique et écologique",
       "tarif": 150
     },
     {
@@ -89,22 +89,22 @@
     {
       "id": 4,
       "entreprises.id": 2,
-      "titre": "devis d'installation d'appareil de production d'eau chaude",
-      "description": "pose et entretien de ballons d'eau chaude",
+      "titre": "Devis d'installation d'appareil de production d'eau chaude",
+      "description": "Pose et entretien de ballons d'eau chaude",
       "tarif": 100
     },
     {
       "id": 5,
       "entreprises.id": 2,
-      "titre": "devis de remise aux normes de vos installations",
-      "description": "diagnostique de votre installation",
+      "titre": "Devis de remise aux normes de vos installations",
+      "description": "Diagnostique de votre installation",
       "tarif": 100
     },
     {
       "id": 6,
       "entreprises.id": 2,
       "titre": "Dépannage plomberie bouchée",
-      "description": "intervention rapide pour remettre en état vos canalisations",
+      "description": "Intervention rapide pour remettre en état vos canalisations",
       "tarif": 200
     }
   ],
