@@ -105,3 +105,16 @@ http://localhost:8000/utilisateurs
 ou encore 
 
 http://localhost:8000/utilisateurs/1
+
+
+Barre de recherche:
+
+Elle utilise matérial ui pour l'icone de la loupe.
+
+les dépendances doivent etre installées.
+
+npm install @mui/material @emotion/react @emotion/styled
+
+et ensuite
+
+npm install @mui/icons-material

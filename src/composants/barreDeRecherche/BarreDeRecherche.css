@@ -1,0 +1,76 @@
+.recherche {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.inputRecherche {
+  display: flex;
+}
+.recherche input {
+  background-color: white;
+  border: 1;
+  border-right: 0;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  font-size: 18px;
+  padding: 15px;
+  height: 60px;
+  width: 300px;
+}
+.iconRecherche {
+  height: 60px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+  border: solid 2px;
+  border-left: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+input:focus {
+  outline: none;
+}
+.iconRecherche svg {
+  font-size: 35px;
+  color: #B2C5C9;
+}
+.resultats_recherche {
+  margin-top: 5px;
+  width: 330px;
+  height: 200px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.resultats_recherche::-webkit-scrollbar{
+    display: none;
+}
+.resultats_recherche .serviceItem{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.rechercheContainer{
+    margin-top: 21%;
+    display: flex;
+    flex-direction: column;
+}
+.serviceItem p {
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    background-color: lightgray;
+}
+#clearBtn{
+    cursor: pointer;
+}
