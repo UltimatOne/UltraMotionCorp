@@ -12,7 +12,10 @@
 .recherche input {
   background-color: white;
   border: 1;
+  border-color: #B2C5C9;
   border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
   font-size: 18px;
@@ -26,10 +29,11 @@
   background-color: white;
   display: grid;
   place-items: center;
-  border: solid 2px;
+  border: solid 2px #B2C5C9;
   border-left: 0;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+  border-bottom-color: #B2C5C9;
 }
 input:focus {
   outline: none;
