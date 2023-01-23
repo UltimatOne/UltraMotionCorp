@@ -42,7 +42,7 @@ const BarreDeRecherche = ({ placeholder }) => {
                 })
                 .map((datasFiltered, key) => {
                   return (
-                    <a className="serviceItem" href="">
+                    <a className="serviceItem" href="/">
                       <p key={datasFiltered.id}>{datasFiltered.titre}</p>
                     </a>
                   );
