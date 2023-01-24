@@ -1,4 +1,4 @@
-.titre{
+.globalForm .titre{
     background-color: #68A849;
     text-align: center;
     border-top-left-radius: 15px;
@@ -10,6 +10,9 @@
     line-height: 190%;
     width: auto;
     height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .globalForm .container{
     width: 400px;
@@ -25,7 +28,7 @@
     border-radius: 15px;
     
 }
-.formulaire{
+.globalForm .formulaire{
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -33,7 +36,7 @@
     
   
 }
-.bouton{
+.globalForm .bouton{
 box-sizing: border-box;
 color: #FFFFFF;
 width: 200px;
@@ -47,12 +50,12 @@ margin-top: 2%;
 margin-bottom: 3%;
 
 }
-input{
+.globalForm input{
     width: 350px;
     height: 30px;
     border-radius: 15px;
 }
-.sectioncontainer{
+.globalForm .sectioncontainer{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -62,7 +65,10 @@ input{
 .titreLabel{
     margin-left: 2%;
 }
-.message{
+.globalForm .message{
     color: red;
     margin-left: 2%;
+}
+.globalForm svg {
+    margin-top: 1%;
 }
