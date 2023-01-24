@@ -1,0 +1,9 @@
+.LandingPage{
+    display: flex;
+    min-width: 100%;
+    min-height: 779px;
+    background: #3757aa;
+    background: -moz-linear-gradient(top, #f4f4f4 0%, #3757aa 100%);
+    background: -webkit-linear-gradient(top, #f4f4f4 0%, #3757aa 100%);
+    background: linear-gradient(to bottom, #f4f4f4 0%, #3757aa 100%);
+}

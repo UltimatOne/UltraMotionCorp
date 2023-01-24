@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './composants/footer/footer';
+import Formulaire from './composants/formulaire/formulaire';
+import Accueil from './pages/accueil';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          ici tout commence ;)
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Go
-        </a>
-      </header>
+      <Routes>
+      <Route exact path="/" element={<Accueil />}/>
+      <Route path="/formulaire-utilisateur" element={<Formulaire props="Utilisateur" />}/>
+      <Route path="/formulaire-prestataire" element={<Formulaire props="Prestataire"/>}/>
+      </Routes>
+      <Footer></Footer>
     </div>
+
   );
 }
 

@@ -1,0 +1,78 @@
+{
+  "utilisateurs": [
+    {
+      "id": 1,
+      "nom": "Williamson",
+      "prenom": "Cameron",
+      "profession": "Manager",
+      "age": 37,
+      "adresse": "18 rue des postes",
+      "ville": "Lille",
+      "email": "cameron.williamson@manager.fr",
+      "telephone": "0712345678",
+      "partenaire": false,
+      "Société": "",
+      "Siret": "",
+      "prestations": [
+        ""
+      ]
+    },
+    {
+      "id": 2,
+      "nom": "Minet",
+      "prenom": "Bernard",
+      "profession": "Electricien",
+      "age": 41,
+      "adresse": "321 Boulevard de la Liberté",
+      "ville": "Lille",
+      "email": "bernard.minet@elec-instal.fr",
+      "telephone": "0787654321",
+      "Société": "Elec-Instal",
+      "Siret": 12345678900013,
+      "prestations": [
+        {
+          "id": 1,
+          "titre": "installation prise electrique",
+          "description": "Prestation comprenant la création de l'alimentation electrique par le passage des cables et la pose d'une prise.",
+          "tarif": 125
+        },
+        {
+          "id": 2,
+          "titre": "Diagnostique de panne électrique",
+          "description": "En cas de problemes électrique identification des causes et émmission d'un devis.",
+          "tarif": 80
+        },
+        {
+          "id": 3,
+          "titre": "Réparation panne électrique",
+          "description": "Réparation du circuit électrique. Le montant du diagnostique de panne est déduit de la prestation en cas d'acceptation du devis",
+          "tarif": 200
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nom": "Ad",
+      "prenom": "Min",
+      "profession": "DevOps",
+      "age": 45,
+      "adresse": "17 Avenue le Corbusier",
+      "ville": "Lille",
+      "email": "ad.min@devops.com",
+      "telephone": "0756781234",
+      "partenaire": false,
+      "Société": "",
+      "Siret": "",
+      "prestations": [
+        ""
+      ]
+    },
+    {
+      "prenom": "Jean-Jacques",
+      "nom": "Goddet",
+      "email": "test@test",
+      "motdepasse": "1234",
+      "id": 4
+    }
+  ]
+}

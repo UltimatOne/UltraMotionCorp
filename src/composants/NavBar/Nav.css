@@ -1,0 +1,46 @@
+.banner .container{
+  padding: 6px 8px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color:none;
+  position: absolute;
+  width:100%;
+  margin: 0 auto;
+
+}
+
+.btnInscription {
+box-sizing: border-box;
+width: 180px;
+height: 35px;
+color: #f1f1f1;
+font-size: 20px;
+font-style: normal;
+font-family: 'M PLUS 2';
+font-weight: 600;
+background: #87DA60;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+border-radius: 12px;
+margin-right: 25px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btnConnexion{
+box-sizing: border-box;
+width: 180px;
+height: 35px;
+color: #f1f1f1;
+font-size: 20px;
+font-style: normal;
+font-family: 'M PLUS 2';
+font-weight: 600;
+background: #75B3D6;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+border-radius: 12px;
+margin-right: 25px;
+
+
+}
