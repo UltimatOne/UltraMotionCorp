@@ -119,7 +119,7 @@ export default function SignUpHome() {
               </li>
             </ul>
           </div>
-          <Link to="/formulaire-prestataire">
+          <Link to="/formulaire-entreprise">
           <button className="boutton-prestataire" type="button">
             Créer un compte
           </button>

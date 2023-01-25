@@ -1,15 +1,15 @@
-.globalForm {
+.globalFormEntreprise {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 903px;
     background-image: url(./../../medias/bkg-img.png);
 }
-.globalForm .logo{
+.globalFormEntreprise .logo{
      margin-top: 25px;
 }
-.globalForm .titre {
-  background-color: #68a849;
+.globalFormEntreprise .titre {
+  background-color: #CEAE5B;
   text-align: center;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -24,31 +24,31 @@
   align-items: center;
   justify-content: center;
 }
-.globalForm .container {
+.globalFormEntreprise .container {
   width: 500px;
   height: auto;
   background-color: aqua;
   color: #ffffff;
   margin: auto;
-  margin-top: 2%;
+  margin-top: .2%;
   margin-bottom: 2%;
   background: rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(5px);
   border-radius: 15px;
 }
-.globalForm .formulaire {
+.globalFormEntreprise .formulaire {
   display: flex;
   flex-direction: column;
   margin-left: auto;
   text-align: center;
 }
-.globalForm .bouton {
+.globalFormEntreprise .bouton {
   box-sizing: border-box;
   color: #ffffff;
   width: 200px;
   height: 50px;
-  background: #87da60;
+  background: #F2D17C;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -56,51 +56,51 @@
   margin-top: 2%;
   margin-bottom: 3%;
 }
-.globalForm input {
+.globalFormEntreprise input {
   width: 440px;
   height: 30px;
   border-radius: 15px;
   padding-left: 10px;
   font-size: 25px;
 }
-.globalForm .inputNom {
+.globalFormEntreprise .inputSociete {
     width: 190px;
   }
-  .globalForm .inputPrenom {
+  .globalFormEntreprise .inputActivite {
     width: 190px;
   }
-.globalForm .inputVille {
+.globalFormEntreprise .inputVille {
   width: 210px;
 }
-.globalForm .inputPostal {
+.globalFormEntreprise .inputPostal {
   width: 170px;
 }
-.globalForm .sectionContainerNomPrenom {
+.globalFormEntreprise .sectionContainerSocieteActivite {
     display: flex;
     text-align: left;
     margin-top: 2px;
   }
-.globalForm .sectionContainerPostalVille {
+.globalFormEntreprise .sectionContainerPostalVille {
     display: flex;
     text-align: left;
   }
-.globalForm .sectioncontainer {
+.globalFormEntreprise .sectioncontainer {
   display: flex;
   flex-direction: column;
   margin: auto;
   text-align: left;
   margin-top: 2%;
 }
-.titreLabel {
+.globalFormEntreprise .titreLabel {
   margin-left: 2%;
 }
-.globalForm .message {
+.globalFormEntreprise .message {
   color: red;
   margin-left: 2%;
 }
-.globalForm svg {
+.globalFormEntreprise svg {
   margin-top: 1%;
 }
-.globalForm .spanMessage {
+.globalFormEntreprise .spanMessage {
   height: 1rem;
 }
