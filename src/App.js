@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './composants/footer/footer';
-import Formulaire from './composants/formulaire/formulaire';
+import FormulaireClient from './composants/formulaires/formulaireClient';
 import Accueil from './pages/accueil';
 import SignUpHome from './pages/signup/signupHome';
 
@@ -13,8 +13,8 @@ function App() {
       <Routes>
       <Route exact path="/" element={<Accueil />}/>
       <Route path='/home-signup' element={<SignUpHome/>} />
-      <Route path="/formulaire-utilisateur" element={<Formulaire props="Utilisateur" />}/>
-      <Route path="/formulaire-prestataire" element={<Formulaire props="Prestataire"/>}/>
+      <Route path="/formulaire-client" element={<FormulaireClient props="Utilisateur" />}/>
+      <Route path="/formulaire-societe" element={<FormulaireClient props="Prestataire"/>}/>
       </Routes>
       <Footer></Footer>
     </div>

@@ -32,6 +32,17 @@
       "email": "test@test",
       "telephone": "0601010101",
       "motdepasse": "1234"
+    },
+    {
+      "nom": "test",
+      "prenom": "test",
+      "adresse": "1 rue geant",
+      "codePostal": "59450",
+      "ville": "Sin Le Noble",
+      "email": "test@test.fr",
+      "telephone": "0601020304",
+      "motdepasse": "test",
+      "id": 4
     }
   ],
   "entreprises": [
@@ -64,7 +75,7 @@
       "zone": "Béthune et les zones à proximité"
     }
   ],
-  "services":[
+  "services": [
     {
       "id": 1,
       "entreprises.id": 1,
@@ -108,16 +119,8 @@
       "tarif": 200
     }
   ],
-  "devis": [
-
-  ],
-  "prestations": [
-
-  ],
-  "sondages":[
-
-  ],
-  "paniers": [
-
-  ]
+  "devis": [],
+  "prestations": [],
+  "sondages": [],
+  "paniers": []
 }

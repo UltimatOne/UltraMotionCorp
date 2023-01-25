@@ -6,7 +6,7 @@ export default function SignUpHome() {
   return (
     <div className="signup-home">
       <div className="logo">
-        <img src={logo} alt="" />
+        <a className="retourAccueil" href="/"><img src={logo} alt="Logo UltraMotionCorp" /></a>
       </div>
       <div className="full-container">
       <div className="container">
@@ -32,9 +32,9 @@ export default function SignUpHome() {
                 width="74.6665"
                 height="74.667"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feColorMatrix
                   in="SourceAlpha"
                   type="matrix"
@@ -76,7 +76,7 @@ export default function SignUpHome() {
               <li>Obtenir de l'aide concernant vos services commandés</li>
             </ul>
           </div>
-          <Link to="/formulaire-utilisateur">
+          <Link to="/formulaire-client">
           <button className="boutton-utilisateur" type="button">
             Créer un compte
           </button>
