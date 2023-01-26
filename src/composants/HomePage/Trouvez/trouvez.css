@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   width: auto;
-  color: white;
 }
 .Trouvez .titre {
     display: flex;
@@ -12,16 +11,4 @@
 .Trouvez .content{
     display: flex;
     justify-content: space-around;
-}
-
-.Trouvez1 {
-}
-
-.Trouvez2 {
-}
-
-.trouvez3 {
-}
-
-.Trouvez4 {
 }

@@ -1,7 +1,6 @@
 .CommentFonctionne{
    display: flex;
    flex-direction: column;
-   color: white;
 }
 .CommentFonctionne .titre{
    width: 100%;
@@ -10,41 +9,3 @@
     display: flex;
     justify-content: space-evenly;
 }
-
-.Recherchez{
-   
-}
-
-.logoRecherchez{
- 
-}
-
-.Choisissez{
-   
-}
-
-.logoChoisissez{
-    
-background: #E9CC7D;
-}
-
-.Reservez{
-    
-}
-
-.logoReservez{
-
-
-background: #E9CC7D;
-}
-
-.Termine{
-    
-}
-
-.logoTermine{
-   
-
-background: #E9CC7D;
-}
-
