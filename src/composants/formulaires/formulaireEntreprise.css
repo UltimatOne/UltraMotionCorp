@@ -95,6 +95,7 @@
   margin-left: 2%;
 }
 .globalFormEntreprise .message {
+  font-size: 12px;
   color: red;
   margin-left: 2%;
 }
@@ -102,5 +103,5 @@
   margin-top: 1%;
 }
 .globalFormEntreprise .spanMessage {
-  height: 1rem;
+  height: 10px;
 }
