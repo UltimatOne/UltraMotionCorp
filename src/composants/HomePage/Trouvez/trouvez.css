@@ -1,85 +1,27 @@
-.Trouvez{
-    position: absolute;
-width: 1081px;
-height: 170px;
-left: 453px;
-top: 1778px;
-
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 72px;
-text-align: center;
-
-color: #FFFFFF;
+.Trouvez {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  color: white;
+}
+.Trouvez .titre {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Trouvez .content{
+    display: flex;
+    justify-content: space-around;
 }
 
-.Trouvez1{
-    position: absolute;
-width: 361px;
-height: 138px;
-
-font-family: 'M PLUS 2';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 46px;
-text-align: center;
-
-color: #FFFFFF;
+.Trouvez1 {
 }
 
-.Trouvez2{
-    position: absolute;
-width: 290px;
-height: 138px;
-left: 596px;
-top: 2293px;
-
-font-family: 'M PLUS 2';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 46px;
-text-align: center;
-
-color: #FFFFFF;
-
+.Trouvez2 {
 }
 
-.trouvez3{
-    position: absolute;
-width: 371px;
-height: 184px;
-left: 1032px;
-top: 2293px;
-
-font-family: 'M PLUS 2';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 46px;
-text-align: center;
-
-color: #FFFFFF;
-
+.trouvez3 {
 }
 
-.Trouvez4{
-    position: absolute;
-width: 293px;
-height: 184px;
-
-font-family: 'M PLUS 2';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 46px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
+.Trouvez4 {
 }

@@ -1,124 +1,49 @@
 .CommentFonctionne{
-    position: absolute;
-width: 634px;
-height: 144px;
-left: 698px;
-top: 1284px;
-
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 72px;
-
-color: #FFFFFF;
-
+   display: flex;
+   flex-direction: column;
+   color: white;
+}
+.CommentFonctionne .titre{
+   width: 100%;
+}
+.CommentFonctionne .content{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .Recherchez{
-    position: absolute;
-width: 169px;
-height: 105px;
-left: 130px;
-top: 1387px;
-
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-text-align: center;
-
-color: #FFFFFF;
+   
 }
 
 .logoRecherchez{
-    position: absolute;
-left: 9.17%;
-right: 86.88%;
-top: 49.54%;
-bottom: 47.95%;
-
-background: #E9CC7D;
+ 
 }
 
 .Choisissez{
-    position: absolute;
-width: 408px;
-height: 105px;
-left: 475px;
-top: 1386px;
-
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-text-align: center;
-
-color: #FFFFFF;
+   
 }
 
 .logoChoisissez{
-    position: absolute;
-width: 98px;
-height: 98px;
-left: 630px;
-top: 1511px;
-
+    
 background: #E9CC7D;
 }
 
 .Reservez{
-    position: absolute;
-width: 261px;
-height: 105px;
-left: 1019px;
-top: 1387px;
-
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-text-align: center;
-
-color: #FFFFFF;
+    
 }
 
 .logoReservez{
-    position: absolute;
-left: 57.71%;
-right: 37.99%;
-top: 49.54%;
-bottom: 47.28%;
+
 
 background: #E9CC7D;
 }
 
 .Termine{
-    position: absolute;
-width: 261px;
-height: 105px;
-left: 1019px;
-top: 1387px;
-
-font-family: 'Kanit';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-text-align: center;
-
-color: #FFFFFF;
+    
 }
 
 .logoTermine{
-    position: absolute;
-width: 97px;
-height: 97px;
-left: 1543px;
-top: 1512px;
+   
 
 background: #E9CC7D;
 }
