@@ -17,7 +17,17 @@ function FormulaireEntreprise({ props }) {
   const navigation = useNavigate();
   const soumettre = (e) => {
     e.preventDefault();
-    const entreprisedata = { societe, activite, adresse, codePostal, ville, email, telephone, motdepasse, siret};
+    const entreprisedata = {
+      societe,
+      activite,
+      adresse,
+      codePostal,
+      ville,
+      email,
+      telephone,
+      motdepasse,
+      siret,
+    };
     fetch("http://localhost:8000/entreprises", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -39,21 +49,25 @@ function FormulaireEntreprise({ props }) {
         </a>
       </div>
       <div className="container">
-        <p className="titre">
-        <svg
-            width="58"
-            height="57"
-            viewBox="0 0 80 80"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M56.6665 53.333C54.8332 53.333 53.3332 51.833 53.3332 49.9997H26.6665C26.6665 51.833 25.1665 53.333 23.3332 53.333C21.4998 53.333 19.9998 51.833 19.9998 49.9997H6.6665V59.9997C6.6665 63.6663 9.6665 66.6663 13.3332 66.6663H66.6665C70.3332 66.6663 73.3332 63.6663 73.3332 59.9997V49.9997H59.9998C59.9998 51.833 58.4998 53.333 56.6665 53.333ZM66.6665 26.6663H56.6665V19.9997C56.6665 16.333 53.6665 13.333 49.9998 13.333H29.9998C26.3332 13.333 23.3332 16.333 23.3332 19.9997V26.6663H13.3332C9.6665 26.6663 6.6665 29.6663 6.6665 33.333V46.6663H19.9998V43.333C19.9998 41.4997 21.4998 39.9997 23.3332 39.9997C25.1665 39.9997 26.6665 41.4997 26.6665 43.333V46.6663H53.3332V43.333C53.3332 41.4997 54.8332 39.9997 56.6665 39.9997C58.4998 39.9997 59.9998 41.4997 59.9998 43.333V46.6663H73.3332V33.333C73.3332 29.6663 70.3332 26.6663 66.6665 26.6663ZM49.9998 26.6663H29.9998V19.9997H49.9998V26.6663Z"
-              fill="#FCFF68"
-            />
-          </svg>
-          {props}
-        </p>
+        <div className="titre">
+          <div>
+            <svg
+              width="58"
+              height="57"
+              viewBox="0 0 80 80"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M56.6665 53.333C54.8332 53.333 53.3332 51.833 53.3332 49.9997H26.6665C26.6665 51.833 25.1665 53.333 23.3332 53.333C21.4998 53.333 19.9998 51.833 19.9998 49.9997H6.6665V59.9997C6.6665 63.6663 9.6665 66.6663 13.3332 66.6663H66.6665C70.3332 66.6663 73.3332 63.6663 73.3332 59.9997V49.9997H59.9998C59.9998 51.833 58.4998 53.333 56.6665 53.333ZM66.6665 26.6663H56.6665V19.9997C56.6665 16.333 53.6665 13.333 49.9998 13.333H29.9998C26.3332 13.333 23.3332 16.333 23.3332 19.9997V26.6663H13.3332C9.6665 26.6663 6.6665 29.6663 6.6665 33.333V46.6663H19.9998V43.333C19.9998 41.4997 21.4998 39.9997 23.3332 39.9997C25.1665 39.9997 26.6665 41.4997 26.6665 43.333V46.6663H53.3332V43.333C53.3332 41.4997 54.8332 39.9997 56.6665 39.9997C58.4998 39.9997 59.9998 41.4997 59.9998 43.333V46.6663H73.3332V33.333C73.3332 29.6663 70.3332 26.6663 66.6665 26.6663ZM49.9998 26.6663H29.9998V19.9997H49.9998V26.6663Z"
+                fill="#FCFF68"
+              />
+            </svg>
+          </div>
+          <div>
+            <p>{props}</p>
+          </div>
+        </div>
         <form className="formulaire" onSubmit={soumettre}>
           <div className="sectionContainerSocieteActivite">
             <div className="sectioncontainer">
@@ -71,7 +85,9 @@ function FormulaireEntreprise({ props }) {
               />
               <div className="spanMessage">
                 {societe.length === 1 && validation && (
-                  <span className="message">Entrez le nom de votre entreprise</span>
+                  <span className="message">
+                    Entrez le nom de votre entreprise
+                  </span>
                 )}
               </div>
             </div>

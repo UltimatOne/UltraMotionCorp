@@ -9,20 +9,18 @@
      margin-top: 25px;
 }
 .globalFormEntreprise .titre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #CEAE5B;
-  text-align: center;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   font-family: "Kanit";
   font-style: normal;
   font-weight: bolder;
   font-size: 35px;
-  line-height: 190%;
   width: auto;
   height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .globalFormEntreprise .container {
   width: 500px;

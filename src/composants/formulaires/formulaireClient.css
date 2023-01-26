@@ -9,20 +9,18 @@
      margin-top: 25px;
 }
 .globalForm .titre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #68a849;
-  text-align: center;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   font-family: "Kanit";
   font-style: normal;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 35px;
-  line-height: 190%;
   width: auto;
   height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .globalForm .container {
   width: 500px;
@@ -101,8 +99,8 @@
   color: red;
   margin-left: 2%;
 }
-.globalForm svg {
-  margin-top: 1%;
+.globalForm .imagesvg {
+  margin-top: 2%;
 }
 .globalForm .spanMessage {
   height: 10px;
