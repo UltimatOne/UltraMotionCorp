@@ -4,6 +4,7 @@
    color: white;
    text-align: center;
    margin-top: 2%;
+   height: 320px;
 }
 .CommentFonctionne .titre{
    width: 100%;
@@ -12,4 +13,8 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 2%;
+}
+.CommentFonctionne h1{
+   font-size: 32px;
+   font-weight: bold;
 }
