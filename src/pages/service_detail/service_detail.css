@@ -1,1 +1,9 @@
-/*** css de la page service détail** /
+.service_detail {
+    display: flex;
+}
+
+.service_detail .descriptif_prestataire {
+    display: flex;
+    flex-direction: column;
+    width: 241px;
+}

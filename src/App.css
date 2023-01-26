@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +6,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
  
 }
-*{
-  margin: 0;
-  padding: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Moul&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@600&display=swap');
