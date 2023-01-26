@@ -12,7 +12,7 @@ function Nav() {
       <div className="container">
         {/* Logo svg UMC importé */}
         <div>
-          <img src={logo} alt="LogoUMC" />
+          <a className="retourAccueil" href="/"><img src={logo} alt="LogoUMC" /></a>
         </div>
         <span>
           <nav className="nav_links">

@@ -88,11 +88,11 @@ avec la commande: npm start
 
 base de données:
 
-l'application est équipé d'un fichier db.json avec quelques données pour initialiser un mock il faut donc installer ses dépendances 
+l'application est équipé d'un fichier db.json avec quelques données pour initialiser une fausse API il faut donc installer ses dépendances 
 
 avec la commande: npm install -g json-server
 
-il sera ensuite possible de lancer l'écoute du mock
+il sera ensuite possible de lancer l'écoute du serveur
 
 avec la commande : json-server --watch db.json --port 8000
 
@@ -100,11 +100,18 @@ le serveur se lance sur l'adresse http://localhost:8000
 
 il est possible de le tester en tapant dans le navigateur: 
 
-http://localhost:8000/utilisateurs 
+  http://localhost:8000/clients
+  http://localhost:8000/entreprises
+  http://localhost:8000/services
+  http://localhost:8000/devis
+  http://localhost:8000/prestations
+  http://localhost:8000/sondages
+  http://localhost:8000/paniers 
 
 ou encore 
 
-http://localhost:8000/utilisateurs/1
+http://localhost:8000/clients/1
+etc...
 
 
 Barre de recherche:

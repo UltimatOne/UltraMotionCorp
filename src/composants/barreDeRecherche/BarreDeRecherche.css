@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: url(./../../medias/bkg-img.png);
 
 }
 .inputRecherche {
@@ -20,7 +21,7 @@
   border-bottom-left-radius: 30px;
   font-size: 18px;
   padding: 15px;
-  height: 60px;
+  height: 30px;
   width: 300px;
 }
 .iconRecherche {

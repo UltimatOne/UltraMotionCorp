@@ -1,0 +1,107 @@
+.globalFormEntreprise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 903px;
+    background-image: url(./../../medias/bkg-img.png);
+}
+.globalFormEntreprise .logo{
+     margin-top: 25px;
+}
+.globalFormEntreprise .titre {
+  background-color: #CEAE5B;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 35px;
+  line-height: 190%;
+  width: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.globalFormEntreprise .container {
+  width: 500px;
+  height: auto;
+  background-color: aqua;
+  color: #ffffff;
+  margin: auto;
+  margin-top: .2%;
+  margin-bottom: 2%;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+}
+.globalFormEntreprise .formulaire {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  text-align: center;
+}
+.globalFormEntreprise .bouton {
+  box-sizing: border-box;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  background: #F2D17C;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.globalFormEntreprise input {
+  width: 440px;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 10px;
+  font-size: 25px;
+}
+.globalFormEntreprise .inputSociete {
+    width: 190px;
+  }
+  .globalFormEntreprise .inputActivite {
+    width: 190px;
+  }
+.globalFormEntreprise .inputVille {
+  width: 210px;
+}
+.globalFormEntreprise .inputPostal {
+  width: 170px;
+}
+.globalFormEntreprise .sectionContainerSocieteActivite {
+    display: flex;
+    text-align: left;
+    margin-top: 2px;
+  }
+.globalFormEntreprise .sectionContainerPostalVille {
+    display: flex;
+    text-align: left;
+  }
+.globalFormEntreprise .sectioncontainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: left;
+  margin-top: 2%;
+}
+.globalFormEntreprise .titreLabel {
+  margin-left: 2%;
+}
+.globalFormEntreprise .message {
+  font-size: 12px;
+  color: red;
+  margin-left: 2%;
+}
+.globalFormEntreprise svg {
+  margin-top: 1%;
+}
+.globalFormEntreprise .spanMessage {
+  height: 10px;
+}
