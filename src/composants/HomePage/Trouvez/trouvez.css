@@ -1,0 +1,23 @@
+.Trouvez {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+  height: 480px;
+}
+.Trouvez .titre {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Trouvez .content {
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+.Trouvez h1 {
+  font-size: 32px;
+  font-weight: bold;
+}

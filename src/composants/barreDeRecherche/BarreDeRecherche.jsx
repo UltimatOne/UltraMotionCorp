@@ -28,6 +28,7 @@ const BarreDeRecherche = ({ placeholder }) => {
               type="text"
               placeholder={placeholder}
               onChange={handleSearchTerm}
+              className="rechercheInput"
             />
             <div className="iconRecherche">
               <SearchIcon />
