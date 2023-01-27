@@ -1,6 +1,6 @@
 import BarreDeRecherche from '../composants/barreDeRecherche/BarreDeRecherche';
 import Comment from '../composants/HomePage/Comment/comment';
-import Trouvez from '../composants/HomePage/Trouvez/trouvez'
+import Trouvez from '../composants/HomePage/Trouvez/trouvez';
 import Nav from '../composants/NavBar/Nav';
 import './accueil.css';
 

@@ -48,10 +48,11 @@
   "entreprises": [
     {
       "id": 1,
-      "logo": "",
+      "logo": "./medias/images/logoElectrite.png",
       "societe": "Elec-Instal",
       "activite": "Electricité",
       "adresse": "321 Boulevard de la Liberté",
+      "description": "Lorem itsum",
       "codePostal": 59000,
       "ville": "Lille",
       "email": "contact@elec-instal.fr",
@@ -67,6 +68,7 @@
       "societe": "AQUA'CHAUFF",
       "activite": "Plomberie",
       "adresse": "26 Bd Georges Bizet",
+      "description": "Lorem itsum",
       "codePostal": 59650,
       "ville": "Villeneuve-d'Ascq",
       "email": "contact@aqua-chauff.fr",
@@ -82,7 +84,7 @@
       "id": 1,
       "entrepriseId": 1,
       "titre": "Câblage d’armoire électrique",
-      "description": "Devis pour l'installation et le cabalage d'une armoire électrique",
+      "description": "Devis pour l'installation et le câblage d'une armoire électrique",
       "tarif": 100
     },
     {
@@ -121,8 +123,6 @@
       "tarif": 200
     }
   ],
-  "devis": [],
   "prestations": [],
-  "sondages": [],
   "paniers": []
 }

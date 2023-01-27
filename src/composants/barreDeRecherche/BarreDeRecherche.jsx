@@ -2,6 +2,7 @@ import React from "react";
 import "./BarreDeRecherche.css";
 import SearchIcon from "@mui/icons-material/Search";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const BarreDeRecherche = ({ placeholder }) => {
   const [datas, setDatas] = useState([]);
@@ -42,9 +43,9 @@ const BarreDeRecherche = ({ placeholder }) => {
                 })
                 .map((datasFiltered, key) => {
                   return (
-                    <a className="serviceItem" href="/">
+                    <Link to="/DescriptionService" className="serviceItem">
                       <p key={datasFiltered.id}>{datasFiltered.titre}</p>
-                    </a>
+                    </Link>
                   );
                 })}
             </div>

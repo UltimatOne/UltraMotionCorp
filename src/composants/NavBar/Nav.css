@@ -1,4 +1,5 @@
 .banner .container{
+  z-index: 1;
   padding: 6px 8px;
   display:flex;
   justify-content:space-between;

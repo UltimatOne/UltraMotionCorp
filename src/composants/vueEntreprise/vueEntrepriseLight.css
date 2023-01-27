@@ -1,0 +1,43 @@
+.vueEntrepriseLightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    width: 200px;
+    margin-top: 10%;
+    margin-right: 50px;
+    text-align: center;
+}
+.vueEntrepriseLightContainer h1{
+    margin-top: 2%;
+    font-size: 24px;
+    font-weight: bold;
+}
+.vueEntrepriseLightContainer h3{
+    margin-top: 2%;
+    font-size: 24px;
+    font-weight: bold;
+}
+.vueEntrepriseLightContainer p{
+    margin-top: 2%;
+    font-weight: bold;
+    text-align: left;
+}
+.vueEntrepriseLightContainer h6{
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logoVueEntrepriseLight img{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    
+}
+.boutonVueEntrepriseLight{
+    background: none;
+    border: none;
+    font-size: 24px;
+    width: 100px;
+    align-self: center;
+}
