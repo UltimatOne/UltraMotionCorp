@@ -1,5 +1,4 @@
 import React from "react";
-import BarreDeRecherche from "../../composants/barreDeRecherche/BarreDeRecherche";
 import Carrousel from "../../composants/carrousel/carrousel";
 import Nav from "../../composants/NavBar/Nav";
 import VueEntrepriseLight from "../../composants/vueEntreprise/vueEntrepriseLight";
