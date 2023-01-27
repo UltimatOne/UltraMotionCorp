@@ -1,5 +1,12 @@
 .service_detail {
     display: flex;
+    flex-direction: column;
+    
+}
+
+.service_detail .container-top {
+    display: flex;
+    flex-direction: row;
 }
 
 .service_detail .descriptif_prestataire {
