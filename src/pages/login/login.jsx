@@ -1,15 +1,20 @@
-export default function login(){
-    return (
-        <div className="login">
-            <div className="container">
-                <label htmlFor="">idenfiant:</label>
-                <input type="text" />
-                <label htmlFor="">Mot de passe:</label>
-                <div className="bouttons">
-                <button>Rénitialiser mdp</button>
-                <button>Connexion</button>
-                </div>
-            </div>
+import "./login.css";
+
+export default function Login() {
+  return (
+    <div className="login">
+      <div className="container">
+        <div className="champs">
+          <label htmlFor="">idenfiant:</label>
+          <input type="text" />
+          <label htmlFor="">Mot de passe:</label>
+          <input type="text" />
         </div>
-    )
+        <div className="bouttons">
+          <button className="btn-reset">Rénitialiser mdp</button>
+          <button className="btn-connexion">Connexion</button>
+        </div>
+      </div>
+    </div>
+  );
 }

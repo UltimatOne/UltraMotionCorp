@@ -4,6 +4,7 @@ import Footer from './composants/footer/footer';
 import FormulaireClient from './composants/formulaires/formulaireClient';
 import FormulaireEntreprise from './composants/formulaires/formulaireEntreprise';
 import Accueil from './pages/accueil';
+import Login from './pages/login/login';
 import SignUpHome from './pages/signup/signupHome';
 
 
@@ -16,6 +17,7 @@ function App() {
       <Route path='/home-signup' element={<SignUpHome/>} />
       <Route path="/formulaire-client" element={<FormulaireClient props="Utilisateur" />}/>
       <Route path="/formulaire-entreprise" element={<FormulaireEntreprise props="Prestataire"/>}/>
+      <Route path='/connexion' element={<Login></Login>} />
       </Routes>
       <Footer></Footer>
     </div>
