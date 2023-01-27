@@ -23,6 +23,7 @@
   padding: 15px;
   height: 30px;
   width: 300px;
+  outline: none;
 }
 .recherche .iconRecherche {
   height: 60px;
@@ -35,9 +36,6 @@
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   border-bottom-color: #B2C5C9;
-}
-.recherche input:focus {
-  outline: none;
 }
 .recherche .iconRecherche svg {
   font-size: 35px;
@@ -76,4 +74,3 @@
 .recherche a:hover{
     background-color: lightgray;
 }
-
