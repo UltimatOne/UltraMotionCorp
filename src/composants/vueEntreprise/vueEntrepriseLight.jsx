@@ -7,18 +7,17 @@ const VueEntrepriseLight = () => {
     const id = 1;
     const societe = "Elec-Instal"
     const activite = "Electricité"
-    const description = "Forte de 30 années d'expériences Elec-Instal est le choix idéal pour vos traveaux d'installations électrique."
+    const description = "Forte de 30 années d'expériences Elec-Instal est le choix idéal pour vos travaux d'installations électrique."
     return (
         <>
         <div className='vueEntrepriseLightContainer' key={id}>
-            <h1>Société</h1>
             <div  className="logoVueEntrepriseLight" >
             <img src={logo} alt="logo de la société"/>
             </div>
-            <h3>{societe}</h3>
+            <h1>{societe}</h1>
             <h6>{activite}</h6>
             <p>{description}</p>
-            {/* <Button className="boutonVueEntrepriseLight"children="..."/> */}
+            <Button className="boutonVueEntrepriseLight"children="..."/>
         </div>
         </>
     );

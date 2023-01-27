@@ -16,10 +16,10 @@ const VueService = () => {
           <h2>Tarif: {tarif}€ HT</h2>
         </div>
         <div className="boutonVueServiceContainer">
-          {/* <Button
+          <Button
             className={"boutonVueService"}
             children={"Ajouter au panier"}
-          /> */}
+          />
         </div>
       </div>
     </>

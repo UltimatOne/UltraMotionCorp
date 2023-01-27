@@ -1,16 +1,16 @@
 .vueEntrepriseLightContainer{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 600px;
-    width: 200px;
+    justify-content: space-around;
+    height: 909px;
+    width: 400px;
     margin-top: 10%;
-    margin-right: 50px;
+    margin-right: 2%;
     text-align: center;
 }
 .vueEntrepriseLightContainer h1{
-    margin-top: 2%;
-    font-size: 24px;
+    margin-top: 10%;
+    font-size: 32px;
     font-weight: bold;
 }
 .vueEntrepriseLightContainer h3{
@@ -20,6 +20,8 @@
 }
 .vueEntrepriseLightContainer p{
     margin-top: 2%;
+    width: 200px;
+    margin: auto;
     font-weight: bold;
     text-align: left;
 }
