@@ -1,0 +1,81 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../medias/bkg-img.png");
+  mix-blend-mode: multiply;
+  height: 903px;
+}
+
+.login .container {
+  width: 700px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+}
+
+.login .champs {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.login label {
+  font-family: "M PLUS 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+
+.login input {
+  width: 300px;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+}
+
+.login .btn-reset {
+  width: 170.89px;
+  height: 50px;
+  background: #ff5c5c;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+
+  font-family: "M PLUS 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 84%;
+  /* or 13px */
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.login .btn-connexion {
+  margin: 20px;
+  width: 180px;
+  height: 50px;
+  background: #87da60;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+
+  font-family: "M PLUS 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 84%;
+  /* or 13px */
+  color: #FFFFFF;
+  text-align: center;
+}

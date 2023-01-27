@@ -28,7 +28,7 @@ function Nav() {
             {/* Balise Bouton, props Children= Se Connecter, 
               props ClassName = btnConnexion
               props type=button*/}
-            <Link to="/" className="nav__link">
+            <Link to="/connexion" className="nav__link">
               <Button className="btnConnexion" type="button">Se Connecter</Button>
             </Link>
           </nav>
