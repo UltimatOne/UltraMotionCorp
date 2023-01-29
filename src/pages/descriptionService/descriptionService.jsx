@@ -5,7 +5,6 @@ import "./descriptionService.css";
 import Carrousel from "../../composants/carrousel/carrousel";
 import VueService from "../../composants/vueService/vueService";
 import Nav from "../../composants/NavBar/Nav";
-// import VueEntrepriseLight from "../../composants/vueEntreprise/vueEntrepriseLight";
 import VueEntrepriseLightId from "../../composants/vueEntreprise/vueEntrepriseLightId";
 
 const DescriptionService = () => {
