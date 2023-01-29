@@ -1,7 +1,7 @@
 {
   "clients": [
     {
-      "id": 1,
+      "id": "willyCameron",
       "nom": "Williamson",
       "prenom": "Cameron",
       "adresse": "18 rue des postes",
@@ -12,7 +12,7 @@
       "motdepasse": "LilleByNight"
     },
     {
-      "id": 2,
+      "id": "Ad",
       "nom": "Ad",
       "prenom": "Min",
       "adresse": "17 Avenue le Corbusier",
@@ -23,7 +23,7 @@
       "motdepasse": "Zeus"
     },
     {
-      "id": 3,
+      "id": "Goddet",
       "nom": "Goddet",
       "prenom": "Jean-Jacques",
       "adresse": "42 rue du développement",
@@ -42,7 +42,7 @@
       "email": "test@test.fr",
       "telephone": "0601020304",
       "motdepasse": "test",
-      "id": 4
+      "id": "test"
     }
   ],
   "entreprises": [
@@ -77,6 +77,29 @@
       "siret": 42145678901047,
       "effectifs": 10,
       "zone": "Béthune et les zones à proximité"
+    },
+    {
+      "societe": "chinchilla corp",
+      "activite": "chinchilla",
+      "adresse": "chinchilla ville",
+      "codePostal": "628200",
+      "ville": "chinchilla",
+      "email": "chinchilla@gmail.com",
+      "telephone": "06.79.96.42.72",
+      "motdepasse": "test",
+      "siret": "chinchilla siret",
+      "id": "chinchilla"
+    },
+    {
+      "id": "test",
+      "activite": "test",
+      "adresse": "chinchilla ville",
+      "codePostal": "628200",
+      "ville": "chinchilla",
+      "email": "test@gmail.com",
+      "telephone": "03164978513",
+      "motdepasse": "test",
+      "siret": "chinchilla siret"
     }
   ],
   "services": [

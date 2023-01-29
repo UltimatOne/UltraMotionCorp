@@ -1,4 +1,4 @@
-.banner .container{
+.nav .banner .container{
   z-index: 1;
   padding: 6px 8px;
   display:flex;
@@ -11,7 +11,7 @@
   position: fixed;
 }
 
-.btnInscription {
+.nav .btnInscription {
 box-sizing: border-box;
 width: 180px;
 height: 35px;
@@ -28,7 +28,7 @@ margin-right: 25px;
 border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.btnConnexion{
+.nav .btnConnexion{
 box-sizing: border-box;
 width: 180px;
 height: 35px;
@@ -44,4 +44,34 @@ border-radius: 12px;
 margin-right: 25px;
 
 
+}
+
+.nav .avatar img{
+  width: 60px;
+  height: 60px;
+  border-radius: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav .logout {
+
+box-sizing: border-box;
+width: 180px;
+height: 35px;
+color: #f1f1f1;
+font-size: 20px;
+font-style: normal;
+font-family: 'M PLUS 2';
+font-weight: 600;
+background: #a11111;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+border-radius: 12px;
+margin-right: 25px;
+}
+
+.nav .nav_login {
+  display: flex;
+  align-items: center;
 }
