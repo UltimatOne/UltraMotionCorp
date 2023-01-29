@@ -1,7 +1,7 @@
 {
   "clients": [
     {
-      "id": "willyCameron",
+      "id": 1,
       "nom": "Williamson",
       "prenom": "Cameron",
       "adresse": "18 rue des postes",
@@ -12,7 +12,7 @@
       "motdepasse": "LilleByNight"
     },
     {
-      "id": "Ad",
+      "id": 2,
       "nom": "Ad",
       "prenom": "Min",
       "adresse": "17 Avenue le Corbusier",
@@ -23,7 +23,7 @@
       "motdepasse": "Zeus"
     },
     {
-      "id": "Goddet",
+      "id": 3,
       "nom": "Goddet",
       "prenom": "Jean-Jacques",
       "adresse": "42 rue du développement",
@@ -42,17 +42,17 @@
       "email": "test@test.fr",
       "telephone": "0601020304",
       "motdepasse": "test",
-      "id": "test"
+      "id": 4
     }
   ],
   "entreprises": [
     {
       "id": 1,
-      "logo": "./medias/images/logoElectrite.png",
+      "logo": "https://assets.prontopro.it/merchant_profile_image/5d3ae9a0-95a8-4c9d-a563-a0030692b590.jpeg",
       "societe": "Elec-Instal",
       "activite": "Electricité",
       "adresse": "321 Boulevard de la Liberté",
-      "description": "Lorem itsum",
+      "description": "Forte de 30 années d'expériences Elec-Instal est le choix idéal pour vos travaux d'installations électrique.",
       "codePostal": 59000,
       "ville": "Lille",
       "email": "contact@elec-instal.fr",
@@ -64,11 +64,11 @@
     },
     {
       "id": 2,
-      "logo": "",
+      "logo": "https://img.freepik.com/vecteurs-premium/logo-service-plomberie-maison-goutte-eau-icone-illustration-identite-marque_7109-525.jpg",
       "societe": "AQUA'CHAUFF",
       "activite": "Plomberie",
       "adresse": "26 Bd Georges Bizet",
-      "description": "Lorem itsum",
+      "description": "Créée en 2010 à Lille, la société Aqua Chauff est spécialisée dans la fourniture et la pose d'appareils de production d'eau chaude multimarque et effectue les travaux de plomberie et d'installation pour votre gestion d'énergie. Votre expert a 15 ans d'expérience dans le domaine de la plomberie et est certifié éco-artisan RGE.",
       "codePostal": 59650,
       "ville": "Villeneuve-d'Ascq",
       "email": "contact@aqua-chauff.fr",
@@ -77,29 +77,6 @@
       "siret": 42145678901047,
       "effectifs": 10,
       "zone": "Béthune et les zones à proximité"
-    },
-    {
-      "societe": "chinchilla corp",
-      "activite": "chinchilla",
-      "adresse": "chinchilla ville",
-      "codePostal": "628200",
-      "ville": "chinchilla",
-      "email": "chinchilla@gmail.com",
-      "telephone": "06.79.96.42.72",
-      "motdepasse": "test",
-      "siret": "chinchilla siret",
-      "id": "chinchilla"
-    },
-    {
-      "id": "test",
-      "activite": "test",
-      "adresse": "chinchilla ville",
-      "codePostal": "628200",
-      "ville": "chinchilla",
-      "email": "test@gmail.com",
-      "telephone": "03164978513",
-      "motdepasse": "test",
-      "siret": "chinchilla siret"
     }
   ],
   "services": [
@@ -108,42 +85,60 @@
       "entrepriseId": 1,
       "titre": "Câblage d’armoire électrique",
       "description": "Devis pour l'installation et le câblage d'une armoire électrique",
-      "tarif": 100
+      "tarif": 100,
+      "image1": "https://www.electricite-briand.fr/wp-content/uploads/2022/08/shutterstock_525560746_1-1024x682.jpg",
+      "image2": "https://fastwatt.fr/wp-content/uploads/2022/09/AdobeStock_327037526-1024x683-1.webp",
+      "image3": "https://blog.izi-by-edf.fr/2021/01/comment-choisir-tableau-electrique-1024x683.jpg"
     },
     {
       "id": 2,
       "entrepriseId": 1,
-      "titre": "L’accompagnement aux choix de matériels industriels",
+      "titre": "L’accompagnement aux choix de matériels électroménager",
       "description": "Notre équipe vous accompagne dans le choix de votre matériel économique et écologique",
-      "tarif": 150
+      "tarif": 150,
+      "image1": "https://blog.ecoflow.com/fr/wp-content/uploads/2022/11/coupure-de-courant-conge%CC%81lateur-1024x683.jpg",
+      "image2": "https://worldissmall.fr/wp-content/uploads/2021/10/frigidaire-connecte-1024x683.jpg",
+      "image3": "https://hisense.fr/wp-content/uploads/2021/12/hisense_washer_primary_60_allergy_steam-graphics_black-1024x683.jpg"
     },
     {
       "id": 3,
       "entrepriseId": 1,
       "titre": "Diagnostique panne électrique",
       "description": "Réparation du circuit électrique. Le montant du diagnostique de panne est déduit de la réparation en cas d'acceptation du devis.",
-      "tarif": 50
+      "tarif": 50,
+      "image1": "https://www.b2b-infos.com/wp-content/uploads/electric-1080584_960_720.jpg",
+      "image2": "https://blog.izi-by-edf.fr/2022/05/panne-electrique-prise-courant-1024x683.jpg",
+      "image3": "https://blog.izi-by-edf.fr/2022/05/comment-trouver-une-panne-electrique.jpg"
     },
     {
       "id": 4,
       "entrepriseId": 2,
       "titre": "Devis d'installation d'appareil de production d'eau chaude",
       "description": "Pose et entretien de ballons d'eau chaude",
-      "tarif": 100
+      "tarif": 100,
+      "image1": "https://i1.wp.com/blog.upkay.com/wp-content/uploads/2020/02/diffe%CC%81rent-ballons-ECS.jpg?fit=1024%2C670&ssl=1",
+      "image2": "https://blog.izi-by-edf.fr/2020/10/chauffe-eau-1.jpg",
+      "image3": "https://www.trustup.be/articles/wp-content/uploads/sites/5/2020/09/shutterstock_659839171-scaled.jpg"
     },
     {
       "id": 5,
       "entrepriseId": 2,
       "titre": "Devis de remise aux normes de vos installations",
       "description": "Diagnostique de votre installation",
-      "tarif": 100
+      "tarif": 100,
+      "image1": "https://habitat-environnement.com/wp-content/uploads/2022/10/assainissement-1024x683.webp",
+      "image2": "https://blog.izi-by-edf.fr/2021/02/guide-plomberie-nourrice-comment-installer.jpg",
+      "image3": "https://www.expertcanalisation.fr/wp-content/uploads/2021/02/42326-322-evier.jpg"
     },
     {
       "id": 6,
       "entrepriseId": 2,
       "titre": "Dépannage plomberie bouchée",
       "description": "Intervention rapide pour remettre en état vos canalisations",
-      "tarif": 200
+      "tarif": 200,
+      "image1": "https://energiesclasse.fr/wp-content/uploads/2021/03/AdobeStock_249407243-1-1024x684.jpg",
+      "image2": "https://travaux-plomberie.eu/wp-content/uploads/2022/09/homme-reparant-le-robinet-deau-1024x681.jpg",
+      "image3": "https://depannage-plomberie-chauffage-77.fr/wp-content/uploads/2019/09/AdobeStock_144431777-1024x683.jpeg"
     }
   ],
   "prestations": [],
