@@ -1,19 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import Button from "../button/button";
+import dataService from "../services/dataService";
 import "./vueService.css";
 const VueService = () => {
-    const titre = "Câblage d’armoire électrique";
-    const description =
-      "Devis pour l'installation et le câblage d'une armoire électrique.";
-    const tarif = 100;
+  const [vueService, setVueService] = useState([]);
+  const { id } = useParams();
+  useEffect(() => {
+    if (id) {
+      dataService.getService(+id).then((data) => setVueService(data));
+    }
+  }, [id]);
   return (
     <>
       <div className="vueServiceContainer">
         <div className="vueService">
-          <h1>{titre}</h1>
+          <h1>{vueService.titre}</h1>
           <p className="description">Description:</p>
-          <p>{description}</p>
-          <h2>Tarif: {tarif}€ HT</h2>
+          <p>{vueService.description}</p>
+          <h2>Tarif: {vueService.tarif}€ HT</h2>
         </div>
         <div className="boutonVueServiceContainer">
           <Button
