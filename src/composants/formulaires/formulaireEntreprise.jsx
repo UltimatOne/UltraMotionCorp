@@ -4,7 +4,7 @@ import "./formulaireEntreprise.css";
 import logo from "../../medias/images/logoUMC.svg";
 
 function FormulaireEntreprise({ props }) {
-  const [societe, setSociete] = useState("");
+  const [id, setId] = useState("");
   const [activite, setActivite] = useState("");
   const [adresse, setAdresse] = useState("");
   const [codePostal, setCodePostal] = useState("");
@@ -18,7 +18,7 @@ function FormulaireEntreprise({ props }) {
   const soumettre = (e) => {
     e.preventDefault();
     const entreprisedata = {
-      societe,
+      id,
       activite,
       adresse,
       codePostal,
@@ -41,6 +41,10 @@ function FormulaireEntreprise({ props }) {
         console.log(err.message);
       });
   };
+
+  
+
+
   return (
     <div className="globalFormEntreprise">
       <div className="logo">
@@ -78,13 +82,13 @@ function FormulaireEntreprise({ props }) {
                 required
                 minLength={2}
                 maxLength={15}
-                value={societe}
+                value={id}
                 onMouseDown={(e) => validationChangement(true)}
-                onChange={(e) => setSociete(e.target.value)}
+                onChange={(e) => setId(e.target.value)}
                 className="inputSociete"
               />
               <div className="spanMessage">
-                {societe.length === 1 && validation && (
+                {id.length === 1 && validation && (
                   <span className="message">
                     Entrez le nom de votre entreprise
                   </span>

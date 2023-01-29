@@ -67,7 +67,7 @@ export default function SignUpHome() {
         <div className="info-container">
           <p className="titre">Client à la recherche de service</p>
           <p className="sous-titre-utilisateur">
-            Ce compte Vous permettra de :{" "}
+            Ce compte vous permettra de :{" "}
           </p>
           <div className="description">
             <ul>
@@ -103,7 +103,7 @@ export default function SignUpHome() {
         <div className="info-container">
           <p className="titre">Prestataire à la recherche de clients</p>
           <p className="sous-titre-prestataire">
-            Ce compte Vous permettra de :{" "}
+            Ce compte vous permettra de :{" "}
           </p>
           <div className="description">
             <ul>
