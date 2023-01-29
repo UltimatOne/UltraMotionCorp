@@ -18,7 +18,7 @@ function App() {
       <Route path='/home-signup' element={<SignUpHome/>} />
       <Route path="/formulaire-client" element={<FormulaireClient props="Utilisateur" />}/>
       <Route path="/formulaire-entreprise" element={<FormulaireEntreprise props="Prestataire"/>}/>
-      <Route path='/DescriptionService' element={<DescriptionService/>}/>
+      <Route path='/services/:id' element={<DescriptionService/>}/>
       <Route path='/connexion' element={<Login/>}/>
       </Routes>
       <Footer></Footer>

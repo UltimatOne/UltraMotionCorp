@@ -1,0 +1,7 @@
+.titreService p{
+    color: black;
+    margin-bottom: 5%;
+}
+.titreService p:hover{
+    background-color: lightgray;
+}
