@@ -1,6 +1,12 @@
+.titreService{
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
 .titreService p{
+    height: 2rem;
     color: black;
-    margin-bottom: 5%;
 }
 .titreService p:hover{
     background-color: lightgray;
