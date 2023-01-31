@@ -20,7 +20,7 @@ const VueEntrepriseLight = ({id}) => {
             <h1>{vueEntrepriseLight.societe}</h1>
             <h6>{vueEntrepriseLight.activite}</h6>
             <p>{vueEntrepriseLight.description}</p>
-            <Button className="boutonVueEntrepriseLight"children="..."/>
+            {/* <Button className="boutonVueEntrepriseLight"children="..."/> */}
         </div>
         </>
     );
