@@ -70,7 +70,7 @@ export default function Login({ setToken }) {
             <input type="password" onChange={(e) => setPassword(e.target.value)} />
           </div>
           <div className="bouttons">
-            <button className="btn-reset">Rénitialiser mdp</button>
+            {/* <button className="btn-reset">Rénitialiser mdp</button> */}
             <button className="btn-connexion" type="submit">
               Connexion
             </button>
