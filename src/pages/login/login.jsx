@@ -67,7 +67,7 @@ export default function Login({ setToken }) {
             <label htmlFor="">Identifiant :</label>
             <input type="text" onChange={(e) => setUserName(e.target.value)} />
             <label htmlFor="">Mot de passe :</label>
-            <input type="text" onChange={(e) => setPassword(e.target.value)} />
+            <input type="password" onChange={(e) => setPassword(e.target.value)} />
           </div>
           <div className="bouttons">
             <button className="btn-reset">Rénitialiser mdp</button>
